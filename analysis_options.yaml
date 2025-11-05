@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    todo: ignore
+    missing_return: error
+    dead_code: info
+
+  exclude:
+    - "**/*.config.dart"
+    - "lib/**/*.g.dart"
+    - "lib/**/*.freezed.dart"
+    - "android/**"
+    - "ios/**"
+
+linter:
+  rules:
